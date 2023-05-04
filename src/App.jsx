@@ -1,11 +1,12 @@
+import Navbar from "./componets/navbar/Navbar";
 
 function App() {
-
   return (
-    <div className="App">
-     <h1>hello wold</h1>
+    <div style={{height:"200vh"}} className="App">
+      <Navbar />
+
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

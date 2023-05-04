@@ -1,0 +1,62 @@
+.navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(97, 10, 10);
+  color: white;
+  position: sticky;
+  top: 0;
+  transition: all 0.5s ease;
+
+  &.active{
+    background-color: white;
+    color:black;
+  }
+  .container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.3rem 0;
+    .logo {
+      font-size: 2rem;
+      font-weight: bold;
+      .text {
+      }
+      .dot {
+        color: rgb(248, 92, 92);
+      }
+    }
+    .links {
+      display: flex;
+      gap: 1.5rem;
+      align-items: center;
+      font-weight: 500;
+      font-family: "MoMontserrat",sans-serif;
+      button {
+        color: white;
+        border-radius: 0.3rem;
+        border: solid white;
+        padding: 0.6rem 1.25rem;
+        cursor: pointer;
+        background-color: transparent;
+        transition: 0.3s all ease;
+        &:hover {
+          background-color: rgb(248, 92, 92);
+          border-color: rgb(248, 92, 92);
+        }
+      }
+    }
+  }
+  hr {
+    width: 99.9%;
+    border: solid 0.07rem lightgrey;
+  }
+  .menu {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    color:gray;
+    font-family: "MoMontserrat",sans-serif;
+    padding: 0.6rem 0;
+  }
+}
