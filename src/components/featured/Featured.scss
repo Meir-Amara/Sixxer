@@ -1,0 +1,73 @@
+.featured{
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: rgb(97, 10, 10);
+    .container{
+        width: 80vw;
+        display: flex;
+        align-items: center;
+        .left{
+            display: flex;
+            flex-direction: column;
+            gap: 1.875rem;
+            h1{
+                font-size: 3.125rem;
+                i{
+                    font-weight: 300;
+                }
+            }
+            .search{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                background-color: white;
+                border-radius:0.3 ;
+                .searchInput{
+                    display: flex;
+                    align-items: center;
+                    gap: 0.6rem ;
+                    img{
+                        width: 1.2rem;
+                        height: 1.2rem;
+                        margin: 0.6rem;
+                    }
+                    input{
+                        border: none;
+                        outline: none;
+                    }
+                }
+                button{
+                    width: 7.5rem;
+                    height: 3.1rem;
+                    border: none;
+                    background-color:  rgb(248, 92, 92);
+                    color: white;
+                    cursor: pointer;
+                }
+            }
+            .popular{
+                display: flex;
+                align-items: center;
+                gap: 0.6rem; ;
+                span{}
+                button{
+                    color: white;
+                    background-color: transparent;
+                    border: solid white;
+                    padding: 0.3rem 0.6rem;
+                    border-radius:1.2rem;
+                    font-size: 0.8rem;
+                    cursor: pointer;
+                }
+            }
+        }
+        .right{
+            height: 100%;
+            img{
+                height: 100%;
+            }
+        }
+    }
+}
